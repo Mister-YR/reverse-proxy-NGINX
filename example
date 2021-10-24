@@ -23,8 +23,8 @@ server {
   server_tokens off;
 
   # logging
-  access_log /var/log/nginx/awx.yrcloud.kiev.ua.access.log;
-  error_log /var/log/awx.yrcloud.kiev.ua.error.log;
+  access_log /var/log/nginx/example.pp.ua.access.log;
+  error_log /var/log/example.pp.ua.error.log;
 
  #  ssl on;
 
