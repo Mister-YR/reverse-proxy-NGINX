@@ -1,3 +1,4 @@
+# /etc/nginx/conf.d/example.pp.ua.conf
 server {
     if ($host = example.pp.ua) {
         return 301 https://$host$request_uri;
